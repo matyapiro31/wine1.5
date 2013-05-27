@@ -5,13 +5,14 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2013-01-17 20:12+0900\n"
-"Last-Translator: Akihiro Sagawa <sagawa.aki@gmail.com>\n"
+"PO-Revision-Date: 2013-05-27 18:30+0900\n"
+"Last-Translator: Matyapiro <matyapiro31@yahoo.co.jp>\n"
 "Language-Team: none\n"
 "Language: Japanese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: appwiz.rc:55
 msgid "Install/Uninstall"
@@ -1430,7 +1431,7 @@ msgstr "シリアル番号"
 
 #: crypt32.rc:81
 msgid "CA Version"
-msgstr ""
+msgstr "CA バージョン"
 
 #: crypt32.rc:82
 msgid "Cross CA Version"
@@ -1446,7 +1447,7 @@ msgstr ""
 
 #: crypt32.rc:85
 msgid "Windows Product Update"
-msgstr ""
+msgstr "Windows 製品のアップデート"
 
 #: crypt32.rc:86
 msgid "Enrollment Name Value Pair"
@@ -1494,7 +1495,7 @@ msgstr ""
 
 #: crypt32.rc:97
 msgid "Application Policies"
-msgstr ""
+msgstr "アプリケーションポリシー"
 
 #: crypt32.rc:98
 msgid "Application Policy Mappings"
@@ -1502,11 +1503,11 @@ msgstr ""
 
 #: crypt32.rc:99
 msgid "Application Policy Constraints"
-msgstr ""
+msgstr "アプリケーションポリシーの制約"
 
 #: crypt32.rc:100
 msgid "CMC Data"
-msgstr ""
+msgstr "CMCデータ"
 
 #: crypt32.rc:101
 msgid "CMC Response"
@@ -7910,32 +7911,32 @@ msgstr "プログラム"
 
 #: shell32.rc:201
 msgid "My Documents"
-msgstr ""
+msgstr "マイドキュメント"
 
 #: shell32.rc:202
 msgid "Favorites"
-msgstr ""
+msgstr "お気に入り"
 
 #: shell32.rc:203
 msgid "StartUp"
-msgstr ""
+msgstr "スタートアップ"
 
 #: shell32.rc:204
 msgid "Start Menu"
-msgstr ""
+msgstr "スタートアップ"
 
 #: shell32.rc:205
 msgid "My Music"
-msgstr ""
+msgstr "マイミュージック"
 
 #: shell32.rc:206
 msgid "My Videos"
-msgstr ""
+msgstr "マイビデオ"
 
 #: shell32.rc:207
 msgctxt "directory"
 msgid "Desktop"
-msgstr ""
+msgstr "デスクトップ"
 
 #: shell32.rc:208
 msgid "NetHood"
@@ -7943,7 +7944,7 @@ msgstr ""
 
 #: shell32.rc:209
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #: shell32.rc:210
 msgid "PrintHood"
@@ -7951,7 +7952,7 @@ msgstr ""
 
 #: shell32.rc:211 winhlp32.rc:45
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 #: shell32.rc:212
 msgid "Program Files"
@@ -7959,7 +7960,7 @@ msgstr "Program Files"
 
 #: shell32.rc:214
 msgid "My Pictures"
-msgstr ""
+msgstr "マイピクチャ"
 
 #: shell32.rc:215
 msgid "Common Files"
@@ -7967,7 +7968,7 @@ msgstr "Common Files"
 
 #: shell32.rc:216 shell32.rc:147 shell32.rc:232
 msgid "Documents"
-msgstr ""
+msgstr "ドキュメント"
 
 #: shell32.rc:217
 msgid "Administrative Tools"
@@ -7979,11 +7980,11 @@ msgstr ""
 
 #: shell32.rc:219
 msgid "Pictures"
-msgstr ""
+msgstr "ピクチャ"
 
 #: shell32.rc:220
 msgid "Videos"
-msgstr ""
+msgstr "ビデオ"
 
 #: shell32.rc:213
 msgid "Program Files (x86)"
@@ -8003,7 +8004,7 @@ msgstr ""
 
 #: shell32.rc:224
 msgid "Playlists"
-msgstr ""
+msgstr "プレイリスト"
 
 #: shell32.rc:148 taskmgr.rc:326
 msgid "Status"
@@ -8019,35 +8020,35 @@ msgstr "機種名"
 
 #: shell32.rc:225
 msgid "Sample Music"
-msgstr ""
+msgstr "サンプルミュージック"
 
 #: shell32.rc:226
 msgid "Sample Pictures"
-msgstr ""
+msgstr "サンプルピクチャ"
 
 #: shell32.rc:227
 msgid "Sample Playlists"
-msgstr ""
+msgstr "サンプルプレイリスト"
 
 #: shell32.rc:228
 msgid "Sample Videos"
-msgstr ""
+msgstr "サンプルビデオ"
 
 #: shell32.rc:229
 msgid "Saved Games"
-msgstr ""
+msgstr "保存済みのゲーム"
 
 #: shell32.rc:230
 msgid "Searches"
-msgstr ""
+msgstr "検索"
 
 #: shell32.rc:231
 msgid "Users"
-msgstr ""
+msgstr "ユーザー"
 
 #: shell32.rc:233
 msgid "Downloads"
-msgstr ""
+msgstr "ダウンロード"
 
 #: shell32.rc:166
 msgid "Unable to create new Folder: Permission denied."
@@ -10082,7 +10083,7 @@ msgstr "Wine コマンド プロンプト"
 
 #: cmd.rc:349
 msgid "Wine CMD Version %1!S!\n"
-msgstr ""
+msgstr "Wine CMD バージョン %1!S!\n"
 
 #: cmd.rc:350
 msgid "More? "
@@ -10477,16 +10478,14 @@ msgid "Datagrams Received"
 msgstr "セグメントはロックされています。\n"
 
 #: netstat.rc:52
-#, fuzzy
 #| msgid "Local Port"
 msgid "No Ports"
-msgstr "ローカル ポート"
+msgstr "ポート無し"
 
 #: netstat.rc:53
-#, fuzzy
 #| msgid "Decoding Error"
 msgid "Receive Errors"
-msgstr "デコード エラー"
+msgstr "受信 エラー"
 
 #: netstat.rc:54
 msgid "Datagrams Sent"
